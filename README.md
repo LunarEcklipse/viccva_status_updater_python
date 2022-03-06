@@ -1,2 +1,2 @@
-# viccva_status_updater_python
-A Python script used to capture the state of a friend's Twitch stream and publish it to a file for use elsewhere.
+# ViccValentine's Status Updater (Python)
+This Python Script was written to capture a friend's Twitch stream status using the Twitch RESTful API over the course of a few days in February 2022. It uses timers to automatically refresh its authorization key, and requested the state every 60 seconds before publishing it to a local JSON file. This was ultimately written as more of a proof-of-concept above all else; the script required a constant ~27 mb of memory to operate, something that weighed fairly heavily on my Raspberry Pi. I later decided to rewrite this script in Rust, but decided to archive the python version anyways, as my Github sort of serves as a semi-portfolio that journals my learning of programming.
